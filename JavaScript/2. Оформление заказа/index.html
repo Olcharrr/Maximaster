@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=b45bc336-db03-4cd2-a2fc-c03fe439495d&lang=ru_RU" type="text/javascript">
+    </script>
+    <title>Js2</title>
+</head>
+<body>
+    <div class="Container">
+        <form class='form' name = "form"> 
+            <label for="name" class="sr-only">ФИО</label>
+            <input id="name" class="field" type="text" placeholder="ФИО">
+
+            <label for="phone" class="sr-only">Телефон</label>
+            <input id="phone" class="field" type="number" placeholder="Телефон">
+
+            <label for="email" class="sr-only">Email</label>
+            <input id="email" class="field" type="text" placeholder="Email">
+
+            <div id="formMap" class="map">
+            </div>
+       
+            <textarea name="comment" id="comment" cols="500" rows="5" placeholder="Комментарий к заказу (максимум 500 символов)"></textarea>
+
+            <input class="btn" type="submit" value="Отправить"/>
+
+            <span style='color:red' id='namef'></span> 
+            <br>
+            <span style='color:red' id='phonef'></span>
+            <br>
+            <span style='color:red' id='emailf'></span>
+            <br>
+            <span style='color:red' id='mapf'></span>
+            <br>
+            <span style='color:black' id='ok'></span>
+        </form>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

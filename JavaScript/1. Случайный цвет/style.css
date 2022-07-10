@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Container{
+    padding: 20px;
+    text-align: right;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+
+.InputWidth{
+    margin-bottom: 5px;
+}
+.InputHeight{
+    margin-bottom: 10px;
+}
+
+.Block{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.btn{
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 24px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
