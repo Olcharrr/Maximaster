@@ -1,0 +1,29 @@
+*{
+ 
+  box-sizing: border-box;
+}
+
+.table, .table > tr > td{
+  border: 1px solid grey;
+}
+
+.table > tr > td {
+  width: 100px;
+  height: 40px
+}
+
+
+
+.tabble--block{
+  display: flex;
+}
+
+.button--column{
+  display: flex;
+  flex-direction: column;
+}
+
+.CellInput{
+  height: 100%;
+  width: 100%;
+}
